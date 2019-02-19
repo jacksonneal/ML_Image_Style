@@ -1,5 +1,6 @@
 import os
 img_dir = 'images'
+#creates a directory for image files if one does not already exist
 if not os.path.exists(img_dir):
     os.mkdir(img_dir)
 
